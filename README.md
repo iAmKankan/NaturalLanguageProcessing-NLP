@@ -16,7 +16,25 @@
 
 
 ### Tokenization
-* Tokenization is the task of chopping it up into pieces, called tokens, perhaps at the same time throwing away certain characters, such as punctuation.  Consider how the program might break up the sentences into words.
+* Tokenisation is the act of breaking a sequence of strings into pieces such as words, keywords, phrases, symbols and other elements called tokens. 
+* Tokens can be individual words, phrases or even whole sentences. 
+* In the process of tokenisation, some characters like punctuation marks are discarded.
+
+```
+'Natural Language Processing'
+['Natural', 'Language', 'Processing']
+```
+### Stemming?
+* **Stemming**: It is the process of reducing inflexions in words to their root forms such as mapping a group of words to the same stem even if stem itself is not a valid word in the Language.
+
+|    | Word        | StemWord |
+|----|-------------|----------|
+| 0  | Connect     | Connect  |
+| 1  | Connections | Connect  |
+| 2  | Connection  | Connect  |
+| 3  | Connects    | Connect  |
+| 04 | Connected   | Connect  |
+
 
 ## spaCy:
 * This is completely optimized and highly accurate library widely used in deep learning.
