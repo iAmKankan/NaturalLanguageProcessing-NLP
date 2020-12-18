@@ -24,7 +24,7 @@
 'Natural Language Processing'
 ['Natural', 'Language', 'Processing']
 ```
-### Stemming?
+### Stemming
 * **Stemming**: It is the process of reducing inflexions in words to their root forms such as mapping a group of words to the same stem even if stem itself is not a valid word in the Language.
 
 |    | Word        | StemWord |
@@ -34,6 +34,11 @@
 | 2  | Connection  | Connect  |
 | 3  | Connects    | Connect  |
 | 04 | Connected   | Connect  |
+
+### Lemmatisation
+* **Lemmatisation**: It is the process of the group together the different inflected forms of the word so that they can be analysed as a single item. It is quite similar to stemming, but it brings context to the words. So it links words with similar kind meaning to one word.
+
+![Lammi](lammi.png)
 
 
 ## spaCy:
