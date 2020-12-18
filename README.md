@@ -41,9 +41,11 @@
 ![Lammi](lammi.png)
 
 ### Bag-of-words model
-* We need the way to represent text data for the machine learning algorithms, and the bag-of-words model helps us to achieve the task.
+* We need the way to represent text data for the machine learning algorithms(In vector of number), and the bag-of-words model helps us to achieve the task.
 * It is the way of extracting features from the text for the use in machine learning algorithms.
-* In this approach, we use the tokenised words for each of observation and find out the frequency of each token.
+* **In this approach, we use the tokenised words for each of observation and find out the frequency of each token.**
+
+---
 * Let’s do an example to understand this concept in depth.
 ```
 “It is going to rain today.”
@@ -75,9 +77,12 @@
 “Today I am not going outside” = [0, 0, 1, 0, 0, 1, 1, 1, 1, 1] 
 “I am going to watch the season premiere” = [0, 0, 1, 1, 0, 0, 1, 1, 0, 0]
 ```
-In this approach, each word (a token) is called a “gram”. Creating the vocabulary of two-word pairs is called a bigram model. The process of converting the NLP text into numbers is called vectorisation in ML. There are different ways to convert text into the vectors :
-• Counting the number of times that each word appears in the document.
-• I am calculating the frequency that each word appears in a document out of all the words in the document.
+* In this approach, each word (a token) is called a **“gram”**.
+* Creating the vocabulary of two-word pairs is called a bigram model. 
+* The process of converting the NLP text into numbers is called **vectorisation** in ML.
+* There are different ways to convert text into the vectors :
+ - Counting the number of times that each word appears in the document.
+ - I am calculating the frequency that each word appears in a document out of all the words in the document.
 
 
 
