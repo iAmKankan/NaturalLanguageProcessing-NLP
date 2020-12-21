@@ -1,6 +1,12 @@
 # Natural Language Processing
 * **Natural language processing (NLP)**: It is the branch of artificial intelligence that helps computers understand, interpret and manipulate human language. 
 * NLP draws from many disciplines, including computer science and computational linguistics, in its pursuit to fill the gap between human communication and computer understanding.
+## Natural Language Processing can be used for
+- Semantic Analysis
+- Automatic summarization
+- Text classification
+- Question Answering
+- Some real-life example of NLP is IOS Siri, the Google assistant, Amazon echo.
 
 ## Main approaches in NLP
 
@@ -65,7 +71,7 @@ Traditional machine learning approach is described by:
     * very large training corpus
  
 ---
-NLP Terminology is based on the following factors:
+### NLP Terminology is based on the following factors:
 
 * **Weights and Vectors:**
     - TF-IDF,
