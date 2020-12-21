@@ -65,6 +65,41 @@ Traditional machine learning approach is described by:
     * very large training corpus
  
 ---
+NLP Terminology is based on the following factors:
+
+* **Weights and Vectors:**
+    - TF-IDF,
+    - length(TF-IDF, doc),
+    - Word Vectors, 
+    - Google Word Vectors
+
+* **Text Structure:**
+    - Part-Of-Speech Tagging, 
+    - Head of sentence,
+    - Named entities
+
+* **Sentiment Analysis:**
+    - Sentiment Dictionary,
+    - Sentiment Entities,
+    - Sentiment Features
+
+* **Text Classification:**
+    - Supervised Learning, 
+    - Train Set, 
+    - Dev(=Validation) Set, 
+    - Test Set, 
+    - Text Features,
+    - LDA.
+
+* **Machine Reading:**
+    * Entity Extraction, 
+    * Entity Linking,
+    * dbpedia, 
+    * FRED (lib) / Pikes.
+
+---
+
+
 
 * For solving NLP problems we can use two types of approaches **1. Word level**, **2. Character level**.
 
