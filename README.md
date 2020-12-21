@@ -1,7 +1,78 @@
 # Natural Language Processing
 * **Natural language processing (NLP)**: It is the branch of artificial intelligence that helps computers understand, interpret and manipulate human language. 
 * NLP draws from many disciplines, including computer science and computational linguistics, in its pursuit to fill the gap between human communication and computer understanding.
-* For Working with NLP we can use two types of approaches **1. Word level**, **2. Character level**.
+
+## Main approaches in NLP
+
+* In order to comprehend and interpret human language, NLP adopts 3 essential approaches to execute NLP tasks.
+* All the 3 approaches are well-recognized and are widely used across numerous segments. 
+* The evolutionary approaches have standalone benefits and continue to aid NLP task to deliver best results.
+
+**1. Rule-Based Approach:**
+    
+   - Regular expressions
+   - Context-free grammars
+
+A rule-based approach is perfect to acquire a specific language phenomenon: it efficiently decodes the linguistic relationship between words to translate the sentence.
+
+* It is easily achieved through focus on pattern-matching or parsing.
+* It can be counted as the ‘fill in the blanks’ method.
+* It offers high performance cases when used specifically but fails to impress when generalized.
+
+Hence, it’s vital to make a good choice for query analysis that’s meant to perform.
+
+**2. Machine Learning or ‘Traditional’ Approach:**
+
+Traditional machine learning approach is described by:
+
+* Training data or annotated corpus – one that has a corpus with mark-up.
+* Feature engineering – capitalized, singulars, word type, surrounding words, etc.
+* A general ML system of a training set or training a model on defined parameters, followed by fitting on test data.
+* Applying model to test data or inference which is characterized by finding most probable words, next word, best category, etc.
+* ‘Semantic slot filling’ tag the words or tokens which carry meaning to the sentences or translate utterances to logical form.
+
+
+
+* Likelihood maximization
+* Linear classifiers
+
+
+
+
+| Rule-based Grammar                         	| Machine Learning algorithm                	|
+|:--------------------------------------------	|:-------------------------------------------	|
+| **Advantages**                               	| **Advantages**                               	|
+| It’s easily adaptable                      	| It’s can scale effortlessly               	|
+| Simple to debug                            	| Learnability without clear programming    	|
+| Enormous training corpus not needed        	| Quick development if dataset is available 	|
+| Comprehends the language                   	| High recall coverage                      	|
+| High perfection                            	|                                           	|
+|**Disadvantages**                             	| **Disadvantages**                            	|
+| Proficient developers & linguists required 	| Training corpus with annotation needed    	|
+| Slow parser development                    	| Hard to debug                             	|
+| Moderate recall (coverage)                 	| Zero understanding of the language        	|
+
+
+**3. Deep Learning**
+
+* Recurrent Neural Networks (RNNs)
+*  Convolutional Neural Networks (CNNs)
+
+* This is similar to "traditional" machine learning, but with a few differences:
+
+    * feature engineering is generally skipped, as networks will "learn" important features (this is generally one of the claimed big benefits of using neural networks for NLP)
+    * instead, streams of raw parameters ("words" -- actually vector representations of words) without engineered features, are fed into neural networks
+    * very large training corpus
+ 
+---
+
+* For solving NLP problems we can use two types of approaches **1. Word level**, **2. Character level**.
+
+
+
+
+
+
 
 ### Libraries we used for NLP
 * We usually use these libraries in NLP, which are:
@@ -39,6 +110,9 @@
 * **Lemmatisation**: It is the process of the group together the different inflected forms of the word so that they can be analysed as a single item. It is quite similar to stemming, but it brings context to the words. So it links words with similar kind meaning to one word.
 
 ![Lammi](lammi.png)
+
+## Word Embeddings or Word vectorization
+
 
 ### Bag-of-words model
 * We need the way to represent text data for the machine learning algorithms(In vector of number), and the bag-of-words model helps us to achieve the task.
