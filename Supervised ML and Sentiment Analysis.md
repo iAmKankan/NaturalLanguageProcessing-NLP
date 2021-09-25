@@ -1,2 +1,4 @@
-
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+### Supervised ML and Sentiment Analysis
+![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 In supervised machine learning you have input features X and a set of labels Y. Now to make sure you're getting the most accurate predictions based on your data, your goal is to minimize your error rates or cost as much as possible. And to do this, you're going to run your prediction function which takes in parameters data to map your features to output labels Y hat. Now the best mapping from features to labels is achieved when the difference between the expected values Y and the predicted values Y hat is minimized. Which the cost function does by comparing how closely your output Y hat is to your label Y. Then you can update your parameters and repeat the whole process until your cost is minimized.
