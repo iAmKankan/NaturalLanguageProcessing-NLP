@@ -2,7 +2,7 @@
 * [Natural Language Processing](#natural-language-processing)
 * [NLP Uses](#nlp-uses)
 * [Main approaches in NLP](#main-approaches-in-nlp)
-  1. [Rule Based Approach](#rule-based-approach)
+  * [Rule Based Approach](#rule-based-approach)
 
 ## Natural Language Processing
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
@@ -24,7 +24,7 @@
 * All the 3 approaches are well-recognized and are widely used across numerous segments. 
 * The evolutionary approaches have standalone benefits and continue to aid NLP task to deliver best results.
 
-**Rule-Based Approach**
+#### Rule Based Approach
  ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
    
    - Regular expressions
