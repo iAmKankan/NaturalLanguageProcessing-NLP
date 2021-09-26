@@ -8,7 +8,7 @@
   * [Machine Learning or Traditional Approach](#machine-learning-or-traditional-approach)
   * [ Deep Learning Approach](#deep-learning-approach)
 * [NLP Terminologies](#nlp-terminologies)
-* [Libraries we used for NLP](#libraries-we-used-for-nlp)
+* [Libraries used for NLP](#libraries-used-for-nlp)
 
 ## Natural Language Processing
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
@@ -137,7 +137,7 @@ Traditional machine learning approach is described by:
 
 
 
-### Libraries we used for NLP
+### Libraries used for NLP
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
  * We usually use these libraries in NLP, which are:
