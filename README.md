@@ -1,10 +1,16 @@
- ## Natural Language Processing
+## Table of Content
+* [Natural Language Processing](#natural-language-processing)
+* [NLP Uses](#nlp-uses)
+* [Main approaches in NLP](#main-approaches-in-nlp)
+  1. [Rule Based Approach](#rule-based-approach)
+
+## Natural Language Processing
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 * **Natural language processing (NLP)**: It is the branch of artificial intelligence that helps computers understand, interpret and manipulate human language. 
 * NLP draws from many disciplines, including computer science and computational linguistics, in its pursuit to fill the gap between human communication and computer understanding.
-### Natural Language Processing can be used for
-![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
+### NLP Uses
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 - Semantic Analysis
 - Automatic summarization
 - Text classification
@@ -18,7 +24,7 @@
 * All the 3 approaches are well-recognized and are widely used across numerous segments. 
 * The evolutionary approaches have standalone benefits and continue to aid NLP task to deliver best results.
 
-**1. Rule-Based Approach:**
+**Rule-Based Approach**
  ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
    
    - Regular expressions
