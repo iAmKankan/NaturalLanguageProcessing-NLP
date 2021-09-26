@@ -3,6 +3,9 @@
 * [NLP Uses](#nlp-uses)
 * [Main approaches in NLP](#main-approaches-in-nlp)
   * [Rule Based Approach](#rule-based-approach)
+  * [Machine Learning or Traditional Approach](#machine-learning-or-traditional-approach)
+  * [ Deep Learning Approach](#deep-learning-approach)
+* [NLP Terminologies](#nlp-terminologies)
 
 ## Natural Language Processing
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
@@ -38,7 +41,7 @@ A rule-based approach is perfect to acquire a specific language phenomenon: it e
 
 Hence, it’s vital to make a good choice for query analysis that’s meant to perform.
 
-**2. Machine Learning or ‘Traditional’ Approach:**
+#### Machine Learning or Traditional Approach
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 Traditional machine learning approach is described by:
@@ -71,7 +74,7 @@ Traditional machine learning approach is described by:
 | Moderate recall (coverage)                 	| Zero understanding of the language        	|
 
 
-**3. Deep Learning**
+### Deep Learning Approach
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 * Recurrent Neural Networks (RNNs)
@@ -84,7 +87,7 @@ Traditional machine learning approach is described by:
     * very large training corpus
  
 
-### NLP Terminology is based on the following factors:
+### NLP Terminologies
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 * **Weights and Vectors:**
