@@ -1,4 +1,6 @@
 ## Table of Content
+![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
+
 * [Natural Language Processing](#natural-language-processing)
 * [NLP Uses](#nlp-uses)
 * [Main approaches in NLP](#main-approaches-in-nlp)
@@ -6,6 +8,7 @@
   * [Machine Learning or Traditional Approach](#machine-learning-or-traditional-approach)
   * [ Deep Learning Approach](#deep-learning-approach)
 * [NLP Terminologies](#nlp-terminologies)
+* [Libraries we used for NLP](#libraries-we-used-for-nlp)
 
 ## Natural Language Processing
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
@@ -21,7 +24,7 @@
 - Some real-life example of NLP is IOS Siri, the Google assistant, Amazon echo.
 
 ### Main approaches in NLP
-![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 
 * In order to comprehend and interpret human language, NLP adopts 3 essential approaches to execute NLP tasks.
 * All the 3 approaches are well-recognized and are widely used across numerous segments. 
@@ -88,7 +91,7 @@ Traditional machine learning approach is described by:
  
 
 ### NLP Terminologies
-![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 
 * **Weights and Vectors:**
     - TF-IDF,
@@ -137,16 +140,10 @@ Traditional machine learning approach is described by:
 ### Libraries we used for NLP
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
-* We usually use these libraries in NLP, which are:
-  * NLTK (Natural language Tool kit)
-  * TextBlob
-  * CoreNLP
-  * Polyglot
-  * Gensim
-  * SpaCy
-  * Scikit-learn
-  * And the new one is **Megatron library** launched recently.
-
+ * We usually use these libraries in NLP, which are:
+ 
+|  NLTK (Natural language Tool kit)| TextBlob| CoreNLP| Polyglot| Gensim| SpaCy| Scikit-learn| Megatron library|
+|---|---|---|---|---|---|---|---|
 
 ### Tokenization
 * Tokenisation is the act of breaking a sequence of strings into pieces such as words, keywords, phrases, symbols and other elements called tokens. 
@@ -156,7 +153,10 @@ Traditional machine learning approach is described by:
 ```
 'Natural Language Processing'
 ['Natural', 'Language', 'Processing']
+
 ```
+
+
 ### Stemming
 * **Stemming**: It is the process of reducing inflexions in words to their root forms such as mapping a group of words to the same stem even if stem itself is not a valid word in the Language.
 
