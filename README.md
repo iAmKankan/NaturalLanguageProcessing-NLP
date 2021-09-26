@@ -1,21 +1,26 @@
-# Natural Language Processing
+ ## Natural Language Processing
+![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 * **Natural language processing (NLP)**: It is the branch of artificial intelligence that helps computers understand, interpret and manipulate human language. 
 * NLP draws from many disciplines, including computer science and computational linguistics, in its pursuit to fill the gap between human communication and computer understanding.
-## Natural Language Processing can be used for
+### Natural Language Processing can be used for
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+
 - Semantic Analysis
 - Automatic summarization
 - Text classification
 - Question Answering
 - Some real-life example of NLP is IOS Siri, the Google assistant, Amazon echo.
 
-## Main approaches in NLP
+### Main approaches in NLP
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 * In order to comprehend and interpret human language, NLP adopts 3 essential approaches to execute NLP tasks.
 * All the 3 approaches are well-recognized and are widely used across numerous segments. 
 * The evolutionary approaches have standalone benefits and continue to aid NLP task to deliver best results.
 
 **1. Rule-Based Approach:**
-    
+ ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+   
    - Regular expressions
    - Context-free grammars
 
@@ -28,6 +33,7 @@ A rule-based approach is perfect to acquire a specific language phenomenon: it e
 Hence, it’s vital to make a good choice for query analysis that’s meant to perform.
 
 **2. Machine Learning or ‘Traditional’ Approach:**
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 Traditional machine learning approach is described by:
 
@@ -60,6 +66,7 @@ Traditional machine learning approach is described by:
 
 
 **3. Deep Learning**
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 * Recurrent Neural Networks (RNNs)
 *  Convolutional Neural Networks (CNNs)
@@ -70,8 +77,9 @@ Traditional machine learning approach is described by:
     * instead, streams of raw parameters ("words" -- actually vector representations of words) without engineered features, are fed into neural networks
     * very large training corpus
  
----
+
 ### NLP Terminology is based on the following factors:
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 * **Weights and Vectors:**
     - TF-IDF,
@@ -103,12 +111,14 @@ Traditional machine learning approach is described by:
     * dbpedia, 
     * FRED (lib) / Pikes.
 
----
 
+
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 
 * For solving NLP problems we can use two types of approaches **1. Word level**, **2. Character level**.
 
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 
 
@@ -116,6 +126,8 @@ Traditional machine learning approach is described by:
 
 
 ### Libraries we used for NLP
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+
 * We usually use these libraries in NLP, which are:
   * NLTK (Natural language Tool kit)
   * TextBlob
