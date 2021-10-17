@@ -8,7 +8,7 @@
   * [Machine Learning or Traditional Approach](#machine-learning-or-traditional-approach)
     * [TF-IDF](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/tfidf.md)
   * [ Deep Learning Approach](#deep-learning-approach)
-* [Preprocessing]()
+* [Preprocessing](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/preprocessing.md)
 * [NLP Terminologies](#nlp-terminologies)
 * [Libraries used for NLP](#libraries-used-for-nlp)
 
