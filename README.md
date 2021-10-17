@@ -6,7 +6,9 @@
 * [Main approaches in NLP](#main-approaches-in-nlp)
   * [Rule Based Approach](#rule-based-approach)
   * [Machine Learning or Traditional Approach](#machine-learning-or-traditional-approach)
+    * [TF-IDF](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/tfidf.md)
   * [ Deep Learning Approach](#deep-learning-approach)
+* [Preprocessing]()
 * [NLP Terminologies](#nlp-terminologies)
 * [Libraries used for NLP](#libraries-used-for-nlp)
 
