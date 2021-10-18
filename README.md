@@ -2,15 +2,17 @@
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 
 * [Natural Language Processing](#natural-language-processing)
-* [NLP Uses](#nlp-uses)
+* [Word Embeddings or Word vectorization](#word-embeddings)
+* [TF-IDF](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/tfidf.md)
 * [Main approaches in NLP](#main-approaches-in-nlp)
   * [Rule Based Approach](#rule-based-approach)
   * [Machine Learning or Traditional Approach](#machine-learning-or-traditional-approach)
-    * [TF-IDF](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/tfidf.md)
   * [ Deep Learning Approach](#deep-learning-approach)
+ 
 * [Preprocessing](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/preprocessing.md)
 * [NLP Terminologies](#nlp-terminologies)
 * [Libraries used for NLP](#libraries-used-for-nlp)
+* [NLP Uses](#nlp-uses)
 
 ## Natural Language Processing
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
@@ -68,7 +70,10 @@
 
 ### Word Embeddings
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+* **Word Embeddings or Word vectorization is a methodology in NLP to map words or phrases from vocabulary to a corresponding vector of real numbers which used to find word predictions, word similarities/semantics.**
+* The operation (text to number) or vectorization is done either on **"word"** or on "**character**" level.
 
+* The process of converting words into numbers are called **Vectorization**.
 * This is one of the most important advances in Deep NLP research.
 * Word Emeddings allow you to map words into a vector space.
 * Once you can represent something as a vector, you can perform arithmetic on it.
