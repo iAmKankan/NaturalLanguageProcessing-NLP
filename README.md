@@ -3,6 +3,7 @@
 
 * [Natural Language Processing](#natural-language-processing)
 * [Word Embeddings or Word vectorization](#word-embeddings)
+* [ Bag-of-words Model](#bag-of-words-model)
 * [TF-IDF](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/tfidf.md)
 * [Main approaches in NLP](#main-approaches-in-nlp)
   * [Rule Based Approach](#rule-based-approach)
@@ -151,22 +152,15 @@ for word, vector in vocabulary:
 * In order to comprehend and interpret human language, NLP adopts 3 essential approaches to execute NLP tasks.
 * All the 3 approaches are well-recognized and are widely used across numerous segments. 
 * The evolutionary approaches have standalone benefits and continue to aid NLP task to deliver best results.
+### Traditional Approach
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 #### Rule Based Approach
- ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
-   
+ ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png) 
    - Regular expressions
    - Context-free grammars
 
-A rule-based approach is perfect to acquire a specific language phenomenon: it efficiently decodes the linguistic relationship between words to translate the sentence.
-
-* It is easily achieved through focus on pattern-matching or parsing.
-* It can be counted as the ‘fill in the blanks’ method.
-* It offers high performance cases when used specifically but fails to impress when generalized.
-
-Hence, it’s vital to make a good choice for query analysis that’s meant to perform.
-
-#### Machine Learning or Traditional Approach
+#### Machine Learning
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 Traditional machine learning approach is described by:
@@ -178,28 +172,15 @@ Traditional machine learning approach is described by:
 * ‘Semantic slot filling’ tag the words or tokens which carry meaning to the sentences or translate utterances to logical form.
 
 
-
 * Likelihood maximization
 * Linear classifiers
 
 
 
+### Modern Approach
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
-| Rule-based Grammar                         	| Machine Learning algorithm                	|
-|:--------------------------------------------	|:-------------------------------------------	|
-| **Advantages**                               	| **Advantages**                               	|
-| It’s easily adaptable                      	| It’s can scale effortlessly               	|
-| Simple to debug                            	| Learnability without clear programming    	|
-| Enormous training corpus not needed        	| Quick development if dataset is available 	|
-| Comprehends the language                   	| High recall coverage                      	|
-| High perfection                            	|                                           	|
-|**Disadvantages**                             	| **Disadvantages**                            	|
-| Proficient developers & linguists required 	| Training corpus with annotation needed    	|
-| Slow parser development                    	| Hard to debug                             	|
-| Moderate recall (coverage)                 	| Zero understanding of the language        	|
-
-
-### Deep Learning Approach
+#### Deep Learning Approach
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 * Recurrent Neural Networks (RNNs)
@@ -299,6 +280,19 @@ Traditional machine learning approach is described by:
 
 
 ### Bag-of-words model
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+* Bag of Words (BoW) is an algorithm that counts how many times a word appears in a document. 
+* Those word counts allow us to compare documents and gauge their similarities for applications like search, document classification and topic modeling. 
+* BoW is a also method for preparing text for input in a deep-learning net.
+
+* BoW lists words paired with their word counts per document. In the table where the words and documents that effectively become vectors are stored, each row is a word, each column is a document, and each cell is a word count. Each of the documents in the corpus is represented by columns of equal length. Those are wordcount vectors, an output stripped of context.
+
+word count table
+
+Before they’re fed to the neural network, each vector of wordcounts is normalized such that all elements of the vector add up to one. Thus, the frequency of each word is effectively converted to represent the probabilities of those words’ occurrence in the document. Probabilities that surpass certain levels will activate nodes in the network and influence the document’s classification.
+
+
+
 * We need the way to represent text data for the machine learning algorithms(In vector of number), and the bag-of-words model helps us to achieve the task.
 * It is the way of extracting features from the text for the use in machine learning algorithms.
 * **In this approach, we use the tokenised words for each of observation and find out the frequency of each token.**
