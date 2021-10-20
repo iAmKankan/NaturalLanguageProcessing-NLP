@@ -3,12 +3,12 @@
 
 * [Natural Language Processing](#natural-language-processing)
 * [Word Embeddings or Word vectorization](#word-embeddings)
-* [ Bag-of-words Model](#bag-of-words-model)
+* [Bag-of-words Model](#bag-of-words-model)
 * [TF-IDF](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/tfidf.md)
 * [Main approaches in NLP](#main-approaches-in-nlp)
   * [Rule Based Approach](#rule-based-approach)
   * [Machine Learning or Traditional Approach](#machine-learning-or-traditional-approach)
-  * [ Deep Learning Approach](#deep-learning-approach)
+  * [Deep Learning Approach](#deep-learning-approach)
  
 * [Preprocessing](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/preprocessing.md)
 * [NLP Terminologies](#nlp-terminologies)
