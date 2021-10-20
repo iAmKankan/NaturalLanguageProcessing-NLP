@@ -1,6 +1,4 @@
 ## Table of Content
-
-
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 * [Natural Language Processing](#natural-language-processing)
 * [Word Embeddings or Word vectorization](#word-embeddings)
