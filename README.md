@@ -284,11 +284,13 @@ Traditional machine learning approach is described by:
 * Those word counts allow us to compare documents and gauge their similarities for applications like search, document classification and topic modeling. 
 * BoW is a also method for preparing text for input in a deep-learning net.
 
-* BoW lists words paired with their word counts per document. In the table where the words and documents that effectively become vectors are stored, each row is a word, each column is a document, and each cell is a word count. Each of the documents in the corpus is represented by columns of equal length. Those are wordcount vectors, an output stripped of context.
+* BoW lists words paired with their word counts per document. 
+* In the table where the words and documents that effectively become vectors are stored, each row is a word, each column is a document, and each cell is a word count. 
+* Each of the documents in the corpus is represented by columns of equal length. Those are wordcount vectors, an output stripped of context.
 
-word count table
-
-Before they’re fed to the neural network, each vector of wordcounts is normalized such that all elements of the vector add up to one. Thus, the frequency of each word is effectively converted to represent the probabilities of those words’ occurrence in the document. Probabilities that surpass certain levels will activate nodes in the network and influence the document’s classification.
+* **Before they’re fed to the neural network, each vector of wordcounts is normalized such that all elements of the vector add up to one**.
+* Thus, the frequency of each word is effectively converted to represent the probabilities of those words’ occurrence in the document.
+* Probabilities that surpass certain levels will activate nodes in the network and influence the document’s classification.
 
 
 
