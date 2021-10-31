@@ -13,15 +13,6 @@
 * It can also be considered as feature vectors or representations of words.
 * **The technique of mapping words to real vectors is called word embedding**.
 
-
-
-<img src="https://latex.codecogs.com/svg.image\mathrm{P(\textrm{"the"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"man"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"his"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"son"}\mid\textrm{"loves"}).}" title="\mathrm{P(\textrm{"the"}\mid\textrm{"loves"})\cdot P(\textrm{"man"}\mid\textrm{"loves"})\cdot P(\textrm{"his"}\mid\textrm{"loves"})\cdot P(\textrm{"son"}\mid\textrm{"loves"}).}" />
-
-
-
-
-
-
 ### Avoid One-Hot Vectors
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 * We used one-hot vectors to represent words (characters are words) .
@@ -44,7 +35,8 @@
 * Assume that the context words are independently generated given the center word (i.e., conditional independence). 
 * In this case, the above conditional probability can be rewritten as
 
- <img src="https://latex.codecogs.com/svg.image?\mathrm{P(\textrm{"the"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"man"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"his"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"son"}\mid\textrm{"loves"}).}" title="\mathrm{P(\textrm{"the"}\mid\textrm{"loves"})\cdot P(\textrm{"man"}\mid\textrm{"loves"})\cdot P(\textrm{"his"}\mid\textrm{"loves"})\cdot P(\textrm{"son"}\mid\textrm{"loves"}).}" />
+
+<img src="https://latex.codecogs.com/svg.image?P(\textrm{the},&space;\textrm{man},&space;\textrm{his},&space;\textrm{son}&space;\mid&space;\textrm{loves})" title="P(\textrm{the}, \textrm{man}, \textrm{his}, \textrm{son} \mid \textrm{loves})" />
 
 
 > ![skip-gram](https://user-images.githubusercontent.com/12748752/139602656-549ebe0a-e0b3-4083-84c0-fa415ac8246b.png)
