@@ -38,6 +38,7 @@
 
 <img src="https://latex.codecogs.com/svg.image?P(\textrm{the},&space;\textrm{man},&space;\textrm{his},&space;\textrm{son}&space;\mid&space;\textrm{loves})" title="P(\textrm{the}, \textrm{man}, \textrm{his}, \textrm{son} \mid \textrm{loves})" />
 
+> <img src="https://latex.codecogs.com/svg.image?\mathrm{P(\textrm{"the"},&space;\textrm{"man"},&space;\textrm{"his"},&space;\textrm{"son"}&space;\mid&space;\textrm{"loves"})}" title="\mathrm{P(\textrm{"the"}, \textrm{"man"}, \textrm{"his"}, \textrm{"son"} \mid \textrm{"loves"})}" />
 
 > ![skip-gram](https://user-images.githubusercontent.com/12748752/139602656-549ebe0a-e0b3-4083-84c0-fa415ac8246b.png)
 
