@@ -15,7 +15,7 @@
 
 
 
-<img src="https://latex.codecogs.com/svg.image?\mathrm{P(\textrm{"the"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"man"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"his"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"son"}\mid\textrm{"loves"}).}" title="\mathrm{P(\textrm{"the"}\mid\textrm{"loves"})\cdot P(\textrm{"man"}\mid\textrm{"loves"})\cdot P(\textrm{"his"}\mid\textrm{"loves"})\cdot P(\textrm{"son"}\mid\textrm{"loves"}).}" />
+<img src="https://latex.codecogs.com/svg.image\mathrm{P(\textrm{"the"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"man"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"his"}\mid\textrm{"loves"})\cdot&space;P(\textrm{"son"}\mid\textrm{"loves"}).}" title="\mathrm{P(\textrm{"the"}\mid\textrm{"loves"})\cdot P(\textrm{"man"}\mid\textrm{"loves"})\cdot P(\textrm{"his"}\mid\textrm{"loves"})\cdot P(\textrm{"son"}\mid\textrm{"loves"}).}" />
 
 
 
