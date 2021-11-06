@@ -5,6 +5,10 @@
 ```python
 tweet = """I’m amazed how often in practice, not only does a @huggingface NLP model solve your problem, but one of their public finetuned checkpoints, is good enough for the job.
 Both impressed, and a little disappointed how rarely I get to actually train a model that matters :("""
+
+from nltk.corpus import stopwords
+stop_words = stopwords.words('english')
+stop_words[:5]
 ```
 ```
 ['i', 'me', 'my', 'myself', 'we']
