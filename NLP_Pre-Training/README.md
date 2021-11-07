@@ -12,7 +12,7 @@
 *  Word vectors are vectors used to represent words of Natural Languages.
 * It can also be considered as feature vectors or representations of words.
 * **The technique of mapping words to real vectors is called word embedding**.
-
+* **By vectorising words we are able to keep similar words close togather.**
 #### Avoid One-Hot Vectors
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 * We used one-hot vectors to represent words (characters are words) .
@@ -65,8 +65,15 @@
 
 ![cbow](https://user-images.githubusercontent.com/12748752/140629052-8a09da15-4be3-47fa-ab58-b87221f7e414.png)
 #### How does they work internally
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 <img src="https://wiki.pathmind.com/images/wiki/word2vec_diagrams.png" width=40%/>
+
+* We take One-hot-Vector for each words from the sliding window at a time as a input to the neural network.
+* For CBOW our predicted value would be 'Love' in this case campared with the actual word
+* This is how we get the weight matrix
+* In Skip-gram the target word is input the y would be the context words(just opposite of CBOW)
+* 
 #### Improving the accuracy
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 * Choice of Model architecture (CBOW/Skipgram)
