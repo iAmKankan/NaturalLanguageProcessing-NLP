@@ -60,7 +60,6 @@
 *  The major difference from the skip-gram model is that the continuous bag of words model assumes that a center word is generated based on its surrounding context words in the text sequence.
 *   For example, in the same text sequence “the”, “man”, “loves”, “his”, and “son”, with “loves” as the center word and the context window size being 2, the continuous bag of words model considers the conditional probability of generating the center word “loves” based on the context words “the”, “man”, “his” and “son” (as shown in fig_cbow), which is
 
-> <img src="https://latex.codecogs.com/svg.image?\mathrm{P("loves"|"the"",&space;"man","his",&space;"son"&space;)}" title="\mathrm{P("loves"|"the"", "man","his", "son" )}" />
-
+> <img src="https://latex.codecogs.com/svg.image?P(''loves''|''the'',''man'',''his'',''son'')" title="P(''loves''|''the'',''man'',''his'',''son'')" />
 
 
