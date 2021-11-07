@@ -54,12 +54,27 @@
 
 > ![skip-gram](https://user-images.githubusercontent.com/12748752/139602656-549ebe0a-e0b3-4083-84c0-fa415ac8246b.png)
 
-### 2) The Continuous Bag of Words (CBOW) Model
+#### 2) The Continuous Bag of Words (CBOW) Model
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 * CBOW model is similar to the skip-gram model.
 *  The major difference from the skip-gram model is that the continuous bag of words model assumes that a center word is generated based on its surrounding context words in the text sequence.
-*   For example, in the same text sequence “the”, “man”, “loves”, “his”, and “son”, with “loves” as the center word and the context window size being 2, the continuous bag of words model considers the conditional probability of generating the center word “loves” based on the context words “the”, “man”, “his” and “son” (as shown in fig_cbow), which is
+*   For example, in the same text sequence “the”, “man”, “loves”, “his”, and “son”, with “loves” as the center word and the context window size being 2,
+*   The continuous bag of words model considers the conditional probability of generating the center word “loves” based on the context words “the”, “man”, “his” and “son”-
 
 > <img src="https://latex.codecogs.com/svg.image?P(''loves''|''the'',''man'',''his'',''son'')" title="P(''loves''|''the'',''man'',''his'',''son'')" />
+
+![cbow](https://user-images.githubusercontent.com/12748752/140629052-8a09da15-4be3-47fa-ab58-b87221f7e414.png)
+#### How does they work internally
+
+<img src="https://wiki.pathmind.com/images/wiki/word2vec_diagrams.png" width=40%/>
+#### Improving the accuracy
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+* Choice of Model architecture (CBOW/Skipgram)
+   * Large Corpus, higher dimensions, slower- skipgram
+   * Small Corpus, Faster - CBOW
+* Increasing the training dataset.
+* Increasing the vector dimensions
+* Increasing the windows size.
+
 
 
