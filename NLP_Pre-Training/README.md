@@ -1,6 +1,6 @@
 ## Index
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
-* [Word Embedding (word2vec)](#word-embedding-word2vec)
+* [Word Embedding (word2vec)](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/NLP_Pre-Training/word2vec.md)
 * 
 * [References](#references)
 ## Natural Language Processing: Pretraining
