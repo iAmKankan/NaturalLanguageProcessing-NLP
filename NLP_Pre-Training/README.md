@@ -1,6 +1,8 @@
 ## Index
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 * [Word Embedding (word2vec)](#word-embedding-word2vec)
+* 
+* [References](#references)
 ## Natural Language Processing: Pretraining
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 
@@ -83,5 +85,7 @@
 * Increasing the vector dimensions
 * Increasing the windows size.
 
-
+## References
+![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
+* [Dive into Deep Learning](https://d2l.ai/index.html)
 
