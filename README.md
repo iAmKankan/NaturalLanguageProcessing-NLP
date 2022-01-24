@@ -54,11 +54,7 @@
 * **Solution**
     > **Neural Network**- Modeling sentences as sequences and as hierarchy(**LSTM**) has led to state of the art improvements over previous go to techniques.
     
-    > **Word Embeddings**- These give words a neural representation so that words can be plugged into a Neural Network just like any other feature vector.
-
-
-
- 
+    > **Word Embeddings**- These give words a neural representation so that words can be plugged into a Neural Network just like any other feature vector. 
 ### Feature Vector
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 * A vector is a series of numbers, like a matrix with one column but multiple rows, that can often be represented spatially. 
@@ -84,7 +80,6 @@
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 * **Word Embeddings or Word vectorization is a methodology in NLP to map words or phrases from vocabulary to a corresponding vector of real numbers which used to find word predictions, word similarities/semantics.**
 * The operation (text to number) or vectorization is done either on **"word"** or on "**character**" level.
-
 * The process of converting words into numbers are called **Vectorization**.
 * This is one of the most important advances in Deep NLP research.
 * Word Emeddings allow you to map words into a vector space.
