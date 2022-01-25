@@ -21,8 +21,8 @@
 * Each word is represented as a vector of length  N , and it can be used directly by neural networks.
 #### Why One-Hot Vectors are bad
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
-* A main reason is that one-hot word vectors cannot accurately express the similarity between different words, such as the cosine similarity that we often use. 
-* Since the cosine similarity between one-hot vectors of any two different words is 0, one-hot vectors cannot encode similarities among words.
+* A main reason is that one-hot word vectors cannot accurately express the similarity between different words, such as the [cosine similarity](https://github.com/iAmKankan/Mathematics/blob/main/linearAlgebra.md#cosine-similarity) that we often use. 
+* Since the [cosine similarity](https://github.com/iAmKankan/Mathematics/blob/main/linearAlgebra.md#cosine-similarity) between one-hot vectors of any two different words is 0, one-hot vectors cannot encode similarities among words.
 
 ### Self-Supervised word2vec
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
