@@ -21,7 +21,7 @@
 “Today, I am not going outside.”
 “I am going to watch the season premiere.”
 ```
-* We treat each sentence as a separate document and we make the list of all words containt by those documents excluding the punctuation.
-* We get- 
+* We treat each sentence as a separate document and we make a list of all the words from all three documents, excluding the punctuation.
+* And we get- 
 
 **[‘It’, ’is’, ’going’, ‘to’, ‘rain’, ‘today’ ‘I’, ‘am’, ‘not’, ‘outside’, ‘watch’, ‘the’, ‘season’, ‘premiere.’]**
