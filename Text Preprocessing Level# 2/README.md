@@ -2,6 +2,27 @@
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 
+### What is vectorization? (Word Embeddings or Word vectorization)
+**Vectorization** is jargon for a classic approach of _converting input data from its raw format (i.e. text ) into vectors of real numbers_ which is the format that ML models support. 
+
+In Machine Learning, vectorization is a step in _feature extraction_. The idea is to get some distinct features out of the text for the model to train on, by converting text to numerical vectors.
+
+There are plenty of ways to perform vectorization, as we’ll see shortly, ranging from naive binary term occurrence features to advanced context-aware feature representations. Depending on the use-case and the model, any one of them might be able to do the required task. 
+
+Let’s learn about some of these techniques and see how we can use them.
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### BOW, TFIDF, Unigram Bigram
 
 
