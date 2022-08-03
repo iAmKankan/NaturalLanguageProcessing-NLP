@@ -4,6 +4,31 @@
 
 ### BOW, TFIDF, Unigram Bigram
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Bag-of-words model
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 > **_Bag of Words (BoW)_** is an algorithm that _counts how many times a word appears in a document_. Those word-counts allow us to compare documents and gauge their similarities for applications like **search**, **document classification** and **topic modeling**. 
@@ -21,7 +46,40 @@
 “Today, I am not going outside.”
 “I am going to watch the season premiere.”
 ```
+##### Step #1
 * We treat each sentence as a separate document and we make a list of all the words from all three documents, excluding the punctuation.
 * And we get- 
+**[‘It’, ’is’, ’going’, ‘to’, ‘rain’, ‘today’ ‘I’, ‘am’, ‘not’, ‘outside’, ‘watch’, ‘the’, ‘season’, ‘premiere’]**
+##### Step #2
+* The next step is to create vectors. Vectors convert text into numbers that can be used by the machine learning algorithm.
+* We take the first document — **“It is going to rain today”**, and we check the frequency of words from the ten unique words.
+```
+“It” = 1
+“is” = 1
+“going” = 1
+“to” = 1
+“rain” = 1
+“today” = 1
+“I” = 0
+“am” = 0
+“not” = 0
+“outside” = 0
+```
+* Rest of the documents will be:
+```
+“It is going to rain today” = [1, 1, 1, 1, 1, 1, 0, 0, 0, 0] 
+“Today I am not going outside” = [0, 0, 1, 0, 0, 1, 1, 1, 1, 1] 
+“I am going to watch the season premiere” = [0, 0, 1, 1, 0, 0, 1, 1, 0, 0]
+```
+* In this approach, each word (a token) is called a **“gram”**.
+* Creating the vocabulary of two-word pairs is called a **bigram model**. 
+* The process of converting the NLP text into numbers is called **vectorisation** in ML.
+* There are different ways to convert text into the vectors :
+ - Counting the number of times that each word appears in the document.
+ - I am calculating the frequency that each word appears in a document out of all the words in the document.
 
-**[‘It’, ’is’, ’going’, ‘to’, ‘rain’, ‘today’ ‘I’, ‘am’, ‘not’, ‘outside’, ‘watch’, ‘the’, ‘season’, ‘premiere.’]**
+
+
+## References
+[![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
+* [Neptune.ai](https://neptune.ai/blog/vectorization-techniques-in-nlp-guide) 
