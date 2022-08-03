@@ -2,28 +2,26 @@
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 
-### What is vectorization? (Word Embeddings or Word vectorization)
+## What is vectorization? (Word Embeddings or Word vectorization)
 **Vectorization** is jargon for a classic approach of _converting input data from its raw format (i.e. text ) into vectors of real numbers_ which is the format that ML models support. 
 
 In Machine Learning, vectorization is a step in _feature extraction_. The idea is to get some distinct features out of the text for the model to train on, by converting text to numerical vectors.
 
-There are plenty of ways to perform vectorization, as we’ll see shortly, ranging from naive binary term occurrence features to advanced context-aware feature representations. Depending on the use-case and the model, any one of them might be able to do the required task. 
+## Vectorization techniques
+### 1. Bag of Words
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+Most simple of all the techniques out there. It involves three operations:
 
-Let’s learn about some of these techniques and see how we can use them.
+#### _Tokenization_
+First, the input text is tokenized. A sentence is represented as a list of its constituent words, and it’s done for all the input sentences.
 
+#### _Vocabulary creation_
+Of all the obtained tokenized words, only unique words are selected to create the vocabulary and then sorted by alphabetical order.
 
+#### _Vector creation_
+Finally, a sparse matrix is created for the input, out of the frequency of vocabulary words. In this sparse matrix, each row is a sentence vector whose length (the columns of the matrix) is equal to the size of the vocabulary.
 
-
-
-
-
-
-
-
-
-
-
-### BOW, TFIDF, Unigram Bigram
+Let’s work with an example and see how it looks in practice. We’ll be using the Sklearn library for this exercise.
 
 
 
@@ -38,17 +36,8 @@ Let’s learn about some of these techniques and see how we can use them.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
+![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 
 ### Bag-of-words model
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
