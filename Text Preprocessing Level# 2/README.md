@@ -81,5 +81,5 @@
 
 
 ## References
-[![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
+![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 * [Neptune.ai](https://neptune.ai/blog/vectorization-techniques-in-nlp-guide) 
