@@ -5,8 +5,8 @@
 * Raw data, a sequence of symbols cannot be fed directly to the algorithms themselves as most of them expect numerical feature vectors with a fixed size rather than the raw text documents with variable length.
 * We generally compute a score for each word to signify its importance in the document and corpus. 
 * This method is a widely used technique in Information Retrieval and Text Mining.
-
 * **TF-IDF = Term Frequency (TF) * Inverse Document Frequency (IDF)**
+
 ### Term Frequency
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 * This measures the frequency of a word in a document.
@@ -17,19 +17,13 @@
 
 #### Our Corpus:
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
-
 * **Document a='The sky is blue'**     
 * **Document b='The sky is not blue'**
-
 * **Step 1**
 > <img src="https://latex.codecogs.com/svg.image?\begin{matrix}&space;&&space;\mathbf{TF(a)}&space;&&space;\mathbf{TF(b)}&space;\\the&space;&1&space;&space;&&space;1&space;\\sky&&space;1&space;&1&space;&space;\\is&space;&1&space;&space;&&space;1&space;\\blue&space;&1&space;&space;&1&space;&space;\\not&space;&0&space;&space;&1&space;&space;\\\end{matrix}" title="\begin{matrix} & \mathbf{TF(a)} & \mathbf{TF(b)} \\the &1 & 1 \\sky& 1 &1 \\is &1 & 1 \\blue &1 &1 \\not &0 &1 \\\end{matrix}" />
 
-
 * **Step 2** On a large document the frequency of the terms will be much higher than the smaller ones. Hence we need to normalize the document based on its size.
-
 > <img src="https://latex.codecogs.com/svg.image?\begin{matrix}&space;&&space;\mathbf{TF(a)}&space;&&space;\mathbf{TF(b)}&&space;\mathbf{N(a)}&&space;\mathbf{N(b)}&space;\\the&space;&1&space;&space;&&space;1&space;&1/4&1/5&space;\\sky&&space;1&space;&1&1/4&1/5&space;&space;\\is&space;&1&space;&space;&&space;1&1/4&1/5&space;\\blue&space;&1&space;&space;&1&1/4&1/5&space;&space;\\not&space;&0&space;&space;&1&&space;0&space;&1/5&space;\\\end{matrix}" title="\begin{matrix} & \mathbf{TF(a)} & \mathbf{TF(b)}& \mathbf{N(a)}& \mathbf{N(b)} \\the &1 & 1 &1/4&1/5 \\sky& 1 &1&1/4&1/5 \\is &1 & 1&1/4&1/5 \\blue &1 &1&1/4&1/5 \\not &0 &1& 0 &1/5 \\\end{matrix}" />
-
-
 * **Step 3**
  <img src="https://latex.codecogs.com/svg.image?\textbf{IDF}&space;=&space;1\&space;&plus;\&space;\log_e&space;\frac{\textrm{Total&space;Number&space;of&space;Documents}}{&space;\textrm{Number&space;of&space;Documents&space;with&space;term&space;'t'&space;appears}&space;}" title="\textbf{IDF} = 1\ +\ \log_e \frac{\textrm{Total Number of Documents}}{ \textrm{Number of Documents with term 't' appears} }" />
 
