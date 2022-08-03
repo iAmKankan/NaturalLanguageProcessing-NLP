@@ -1,6 +1,5 @@
 ## TF-IDF
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
-
 * TF-IDF stands for **“Term Frequency — Inverse Document Frequency”**.
 * This is a technique to quantify words in a set of documents.
 * Raw data, a sequence of symbols cannot be fed directly to the algorithms themselves as most of them expect numerical feature vectors with a fixed size rather than the raw text documents with variable length.
