@@ -6,8 +6,7 @@
 
 ### Bag-of-words model
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
-**_Bag of Words (BoW)_** is an algorithm that counts how many times a word appears in a document. 
-* Those word counts allow us to compare documents and gauge their similarities for applications like search, document classification and topic modeling. 
+**_Bag of Words (BoW)_** is an algorithm that _counts how many times a word appears in a document_. Those word-counts allow us to compare documents and gauge their similarities for applications like **search**, **document classification** and **topic modeling**. 
 * BoW is a also method for preparing text for input in a deep-learning net.
 * BoW lists words paired with their word counts per document. 
 * In the table where the words and documents that effectively become vectors are stored, each row is a word, each column is a document, and each cell is a word count. 
