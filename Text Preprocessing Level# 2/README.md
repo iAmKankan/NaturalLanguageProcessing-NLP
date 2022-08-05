@@ -5,11 +5,15 @@
 ## What is vectorization? (Word Embeddings or Word vectorization)
 **Vectorization** is jargon for a classic approach of _converting input data from its raw format (i.e. text ) into vectors of real numbers_ which is the format that ML models support. 
 
-In Machine Learning, vectorization is a step in _feature extraction_. The idea is to get some distinct features out of the text for the model to train on, by converting text to numerical vectors.
+In Machine Learning, vectorization is a step in _feature extraction_. The idea is to get some distinct features out of the text for the model to train on, **_by converting text to numerical vectors_**.
 
 ## Vectorization techniques
 ### 1. Bag of Words
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
+**BoW** models are concerned with _whether a known word occurs in a document and how many times it occurs_ -- _not the order in which it appears_, _nor its context_.
+**BoW** is often implemented as a [Python dictionary Datastructure](https://docs.python.org/3/tutorial/datastructures.html#dictionaries). Each key in the _dictionary_ is set to a word, and each value is set to the number of times the word appears.
+BoW plays an important role in natural language processing, information retrieval from documents and document classification.
+
 Most simple of all the techniques out there. It involves three operations:
 
 #### _Tokenization_
