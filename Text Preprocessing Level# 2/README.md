@@ -17,7 +17,7 @@ Each **key** in the _dictionary_ is _set to a word_, and each **value** is set t
 
 BoW plays an important role in natural language processing, information retrieval from documents and document classification.
 
-Most simple of all the techniques out there. It involves three operations:
+It involves three operations:
 
 #### _Tokenization_
 First, the input text is tokenized. A sentence is represented as a list of its constituent words, and it’s done for all the input sentences.
@@ -28,7 +28,8 @@ Of all the obtained tokenized words, only unique words are selected to create th
 #### _Vector creation_
 Finally, a sparse matrix is created for the input, out of the frequency of vocabulary words. In this sparse matrix, each row is a sentence vector whose length (the columns of the matrix) is equal to the size of the vocabulary.
 
-Let’s work with an example and see how it looks in practice. We’ll be using the Sklearn library for this exercise.
+#### Example #1 
+*  Python code for 'N-Gram', 'Unigram' and 'Bigram'
 
 
 
@@ -100,3 +101,4 @@ Let’s work with an example and see how it looks in practice. We’ll be using 
 ## References
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 * [Neptune.ai](https://neptune.ai/blog/vectorization-techniques-in-nlp-guide) 
+* [SkLearn](https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction)
