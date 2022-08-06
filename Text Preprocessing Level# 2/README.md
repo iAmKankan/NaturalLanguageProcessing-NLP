@@ -4,7 +4,7 @@
 #### [_Vectorization techniques_](#vectorization-techniques)
 1. [Bag of Words](#1-bag-of-words)
     * [Example #1](#example-1)
-    * Example #2 [Python code]([Python code](https://nbviewer.org/github/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/Text%20Preprocessing%20Level%23%202/Bag_of_Words.ipynb))
+    * [Example #2 Python code](https://nbviewer.org/github/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/Text%20Preprocessing%20Level%23%202/Bag_of_Words.ipynb)
     
 2. [TF-IDF](#2-tf-idf)
 
