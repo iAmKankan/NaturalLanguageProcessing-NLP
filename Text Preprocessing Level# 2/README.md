@@ -28,48 +28,8 @@ Of all the obtained tokenized words, only unique words are selected to create th
 #### _Vector creation_
 Finally, a sparse matrix is created for the input, out of the frequency of vocabulary words. In this sparse matrix, each row is a sentence vector whose length (the columns of the matrix) is equal to the size of the vocabulary.
 
-## Example #1 
+### Example #1 
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
-*  Python code for 'N-Gram', 'Unigram' and 'Bigram'
-
-### _Data_
-```Python
-sents = ['This document is the first document.',
-    'coronavirus is a highly infectious disease',
-   'coronavirus affects older people the most', 
-   'older people are at high risk due to this disease']
-```
-### _The Library_
-#### CountVectorizer [_link_](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html)
-![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
-* Convert a collection of text documents to a matrix of token counts.
-
-```Python
-from sklearn.feature_extraction.text import CountVectorizer
-```
-### *Unigram*
-![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
-* By default it is Unigram
-
-```Python
-vectorizer = CountVectorizer()
-X = vectorizer.fit_transform(sents) 
-vectorizer.get_feature_names_out()
-```
-```
-array(['affects', 'are', 'at', 'coronavirus', 'disease', 'document',
-       'due', 'first', 'high', 'highly', 'infectious', 'is', 'most',
-       'older', 'people', 'risk', 'the', 'this', 'to'], dtype=object)
-```
-```Python
-print(X.toarray())
-```
-```
-[[0 0 0 0 0 2 0 1 0 0 0 1 0 0 0 0 1 1 0]
- [0 0 0 1 1 0 0 0 0 1 1 1 0 0 0 0 0 0 0]
- [1 0 0 1 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0]
- [0 1 1 0 1 0 1 0 1 0 0 0 0 1 1 1 0 1 1]]
- ```
 ### *N-Gram,Unigram, Bigram*
 ![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 #### ***`ngram_range : tuple (min_n, max_n), default=(1, 1)`***
@@ -121,6 +81,9 @@ sorted(vectorizer2.vocabulary_.keys())
 'people', 'people are', 'people the', 'risk', 'risk due', 'the', 'the first', 'the most', 'this', 'this disease',
 'this document', 'to', 'to this']
 ```
+### Example #2
+[Python code](https://nbviewer.org/github/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/Text%20Preprocessing%20Level%23%202/Bag_of_Words.ipynb)
+
 ### 2. TF-IDF
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 #### Tf–idf term weighting( term-frequency inverse document-frequency)
