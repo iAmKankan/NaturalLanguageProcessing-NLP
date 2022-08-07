@@ -122,5 +122,5 @@ The following sections contain further explanations and examples that illustrate
 ## References
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 * [Neptune.ai](https://neptune.ai/blog/vectorization-techniques-in-nlp-guide) 
-* [SkLearn](https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction)
-* [sklearn](https://scikit-learn.org/stable/modules/feature_extraction.html#the-bag-of-words-representation)
+* [Bag of Words SkLearn](https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction)
+* [TF-IDF sklearn](https://scikit-learn.org/stable/modules/feature_extraction.html#the-bag-of-words-representation)
