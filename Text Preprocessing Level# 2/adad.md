@@ -37,10 +37,10 @@
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{rk}(A)}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{rk}(A)}" />  | Rank of matrix A                                               |
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{Im}(\Phi)}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{Im}(\Phi)}" />  | Image of linear mapping                                        |
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{ker}(\Phi)}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{ker}(\Phi)}" />  | Kernel (null space) of a linear mapping                        |
-|   | Span (generating set) of b1                                    |
-|   | Trace of A                                                     |
-|   | Determinant of A                                               |
-|   | Absolute value or determinant (depending on context)           |
-|   | Norm; Euclidean, unless specified                              |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{span}[b_1]}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{span}[b_1]}" />  | Span (generating set) of b1                                    |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{tr}(A)}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{tr}(A)}" />  | Trace of A                                                     |
+|<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{det}(A)}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{det}(A)}" />   | Determinant of A                                               |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$|.|$}&space;}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$|.|$} }" />  | Absolute value or determinant (depending on context)           |
+|<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\parallel.\parallel$}&space;}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\parallel.\parallel$} }" />   | **Norm**; **Euclidean**, unless specified                              |
 |   | Eigenvalue or Lagrange multiplier                              |
 |   | Eigenspace corresponding to eigenvalue                         |
