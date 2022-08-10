@@ -40,7 +40,7 @@
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{span}[b_1]}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{span}[b_1]}" />  | Span (generating set) of b1                                    |
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{tr}(A)}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{tr}(A)}" />  | Trace of A                                                     |
 |<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{det}(A)}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{det}(A)}" />   | Determinant of A                                               |
-| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$|.|$}&space;}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$|.|$} }" />  | Absolute value or determinant (depending on context)           |
+|<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\parallel.\parallel$}&space;}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\parallel.\parallel$} }" />   | Absolute value or determinant (depending on context)           |
 |<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\parallel.\parallel$}&space;}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\parallel.\parallel$} }" />   | **Norm**; **Euclidean**, unless specified                              |
-|   | Eigenvalue or Lagrange multiplier                              |
-|   | Eigenspace corresponding to eigenvalue                         |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\lambda$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\lambda$}}" />  | Eigenvalue or Lagrange multiplier                              |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{E$_{\lambda}$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{E$_{\lambda}$}}" />  | Eigenspace corresponding to eigenvalue                         |
