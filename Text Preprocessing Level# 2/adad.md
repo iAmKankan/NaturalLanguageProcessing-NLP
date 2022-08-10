@@ -10,9 +10,9 @@
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{B&space;$=&space;(b_1,&space;b_2,&space;b_3)$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{B $= (b_1, b_2, b_3)$}}" />  | (Ordered) tuple                                                |
 |<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{B&space;$=&space;[b_1,&space;b_2,&space;b_3]$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{B $= [b_1, b_2, b_3]$}}" />   | Matrix of column vectors stacked horizontally                  |
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{B&space;=&space;\{$&space;b_1,&space;b_2,&space;b_3$\}}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{B = \{$ b_1, b_2, b_3$\}}}" /> | Set of vectors (unordered)                                     |
-|   | Integers and natural numbers, respectively                     |
-|   | Real and complex numbers, respectively                         |
-|   | n-dimensional vector space of real numbers                     |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{$\mathbb{Z},&space;\mathbb{N}$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{$\mathbb{Z}, \mathbb{N}$}}" />  | Integers and natural numbers, respectively                     |
+|<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{$\mathbb{R},&space;\mathbb{C}$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{$\mathbb{R}, \mathbb{C}$}}" />   | Real and complex numbers, respectively                         |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{$\mathbb{R}^n$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{$\mathbb{R}^n$}}" />  | n-dimensional vector space of real numbers                     |
 |   | ==========================================                     |
 |<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{$\forall$x}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{$\forall$x}}" />   | Universal quantifier: for all x                                |
 |<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{$\exists$x&space;}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{$\exists$x }}" />   | Existential quantifier: there exists x                         |
