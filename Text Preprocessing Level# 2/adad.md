@@ -1,11 +1,11 @@
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{Symbols}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{Symbols}}"  align="center" />  |<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{Typical&space;Meaning}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{Typical Meaning}}" align="center" />                                                                |
 |---|----------------------------------------------------------------|
-|   | Scalars are lowercase                                          |
-|   | Vectors are bold lowercase                                     |
-|   | Matrices are bold uppercase                                    |
-|   | Transpose of a vector or matrix                                |
-|   | Inverse of a matrix                                            |
-|   | Inner product of x and y                                       |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{a,&space;b,&space;c,&space;$\alpha,&space;\beta,&space;\zeta&space;$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{a, b, c, $\alpha, \beta, \zeta $}}" />  | Scalars are lowercase                                          |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{x,&space;y,&space;z}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{x, y, z}}" />  | Vectors are bold lowercase                                     |
+|<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{A,&space;B,&space;C}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{A, B, C}}" />   | Matrices are bold uppercase                                    |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{x$^\top$,&space;A$^\top$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{x$^\top$, A$^\top$}}" />  | Transpose of a vector or matrix                                |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{A$^{-1}$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{A$^{-1}$}}" />  | Inverse of a matrix                                            |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{$\left<&space;x,y\right>$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{$\left< x,y\right>$}}" />  | Inner product of x and y                                       |
 |   | Dot product of x and y                                         |
 |   | (Ordered) tuple                                                |
 |   | Matrix of column vectors stacked horizontally                  |
