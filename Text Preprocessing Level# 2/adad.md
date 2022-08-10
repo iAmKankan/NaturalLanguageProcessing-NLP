@@ -5,11 +5,11 @@
 |<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{A,&space;B,&space;C}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{A, B, C}}" />   | Matrices are bold uppercase                                    |
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{x$^\top$,&space;A$^\top$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{x$^\top$, A$^\top$}}" />  | Transpose of a vector or matrix                                |
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{A$^{-1}$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{A$^{-1}$}}" />  | Inverse of a matrix                                            |
-| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{$\left<&space;x,y\right>$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{$\left< x,y\right>$}}" />  | Inner product of x and y                                       |
-|   | Dot product of x and y                                         |
-|   | (Ordered) tuple                                                |
-|   | Matrix of column vectors stacked horizontally                  |
-|   | Set of vectors (unordered)                                     |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{$\langle&space;x,y&space;\rangle$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{$\langle x,y \rangle$}}" />  | Inner product of x and y                                       |
+|<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$x^\top&space;y$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$x^\top y$}}" />   | Dot product of x and y                                         |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{B&space;$=&space;(b_1,&space;b_2,&space;b_3)$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{B $= (b_1, b_2, b_3)$}}" />  | (Ordered) tuple                                                |
+|<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{B&space;$=&space;[b_1,&space;b_2,&space;b_3]$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textbf{B $= [b_1, b_2, b_3]$}}" />   | Matrix of column vectors stacked horizontally                  |
+| <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{B&space;=&space;\{$&space;b_1,&space;b_2,&space;b_3$\}}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textit{B = \{$ b_1, b_2, b_3$\}}}" /> | Set of vectors (unordered)                                     |
 |   | Integers and natural numbers, respectively                     |
 |   | Real and complex numbers, respectively                         |
 |   | n-dimensional vector space of real numbers                     |
