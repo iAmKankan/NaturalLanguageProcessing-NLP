@@ -44,3 +44,41 @@
 |<img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\parallel.\parallel$}&space;}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\parallel.\parallel$} }" />   | **Norm**; **Euclidean**, unless specified                              |
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\lambda$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{$\lambda$}}" />  | Eigenvalue or Lagrange multiplier                              |
 | <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{E$_{\lambda}$}}" title="https://latex.codecogs.com/svg.image?{\color{Purple}\textrm{E$_{\lambda}$}}" />  | Eigenspace corresponding to eigenvalue <img src="https://latex.codecogs.com/svg.image?\lambda" title="https://latex.codecogs.com/svg.image?\lambda" />.                       |
+|   | Vectors x and y are orthogonal          |
+|   | Vector space                            |
+|   | Orthogonal complement of vector space V |
+|   | Sum of the x<sub>n</sub> : x<sub>1</sub> + ... + x<sub>N</sub>        |
+|   | Product of the x<sub>n</sub> : x<sub>1</sub> * ... * x<sub>N</sub>                                         |
+|   | Parameter vector                                        |
+|   |  Partial derivative of _f_ with respect to _x_                                       |
+|   | Total derivative of _f_ with respect to _x_                                        |
+|   |  Gradient                                       |
+|   |   The smallest function value of _f_                                      |
+|   |   The value x* that minimizes f (note: arg min returns a set of values)                                      |
+|   |   Lagrangian                                      |
+|   |    Negative log-likelihood                                     |
+|   |    Binomial coefficient, n choose k                                     |
+|   |    Variance of x with respect to the random variable X                                     |
+|   |  Expectation of x with respect to the random variable X                                       |
+|   |  Covariance between x and y.                                       |
+|   |   X is conditionally independent of Y given Z                                      |
+|   | Random variable X is distributed according to p                                        |
+|   | Gaussian distribution with mean  and covariance                                         |
+|   |  Bernoulli distribution with parameter                                        |
+|   |  Binomial distribution with parameters N;                                        |
+|   |  Beta distribution with parameters ;                                        |
+|   |==================================                  |
+|   | -----------------------                             |
+|Acronym |Meaning|
+|e.g. |Exempli gratia (Latin: for example)|
+|GMM |Gaussian mixture model|
+|i.e.| Id est (Latin: this means)|
+|i.i.d.| Independent, identically distributed|
+|MAP| Maximum a posteriori|
+|MLE |Maximum likelihood estimation/estimator|
+|ONB |Orthonormal basis|
+|PCA| Principal component analysis|
+|PPCA| Probabilistic principal component analysis|
+|REF |Row-echelon form|
+|SPD |Symmetric, positive definite|
+|SVM |Support vector machine|
