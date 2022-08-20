@@ -95,7 +95,7 @@ sorted(vectorizer2.vocabulary_.keys())
 ### 2. TF-IDF
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
 #### Tf–idf term weighting( term-frequency inverse document-frequency)
-Some words in enery language, carry very little meaningful information about the actual contents of the document (e.g. “**the**”, “**a**”, “**is**” in English) . If we were to feed the direct count data directly to a classifier _those very frequent terms would shadow the frequencies of rarer yet more interesting terms_.
+Some words in every language, carry very little meaningful information about the actual contents of the document (e.g. “**the**”, “**a**”, “**is**” in English) . If we were to feed the direct count data directly to a classifier _those very frequent terms would shadow the frequencies of rarer yet more interesting terms_.
 
 In order to _re-weight_ the count features into **floating point values** suitable for usage by a classifier it is very common to use the **tf–idf** transform.
 
