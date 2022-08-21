@@ -116,10 +116,19 @@ where $\large{\color{Purple}f_{t,d} }$ is the raw count of a term in a document,
 * the raw count itself: $\large{\color{Purple}\textrm{tf}(t,d) = f_{t,d}}$
 * Boolean "frequencies": $\large{\color{Purple}\textrm{tf}(t,d) = 1}$ if $\large{\color{Purple}t}$ occurs in $\large{\color{Purple}d}$ and $\large{\color{Purple}0}$ otherwise;
 * logarithmically scaled frequency/log normalization: $\large{\color{Purple}\mathrm{tf}(t,d) = \log (1 + f_{t,d})}$
-* augmented frequency, to prevent a bias towards longer documents, e.g. raw frequency divided by the raw frequency of the most frequently occurring term in the document: $\large{\color{Purple}{\displaystyle \mathrm {tf} (t,d)=0.5+0.5\cdot {\frac {f_{t,d}}{\max\{f_{t',d}:t'\in d\}}}} }$
+* augmented frequency, to prevent a bias towards longer documents, e.g. raw frequency divided by the raw frequency of the most frequently occurring term in the document: $\large{\color{Purple}{\displaystyle \mathrm {tf} (t,d)=0.5+0.5\cdot {\frac {f_{t,d}}{\max \\{ f_{t',d}:t'\in d \\} }}}}$
+
+### Inverse document frequency
+The inverse document frequency is a measure of how much information the word provides, i.e., if it is common or rare across all documents. It is the logarithmically scaled inverse fraction of the documents that contain the word (obtained by dividing the total number of documents by the number of documents containing the term, and then taking the logarithm of that quotient):
+
+$$\large{\color{Purple}\mathrm{idf}(t, D) =  \log \frac{N}{| \\{ d \in D: t \in d \\} |}}$$
+
+with
+* $\large{\color{Purple}{\displaystyle N}:}$ total number of documents in the corpus $\large{\color{Purple}{\displaystyle N={|D|}}}$
+* $\large{\color{Purple}{\displaystyle |\{d\in D:t\in d\}|}}$ : number of documents where the term $\large{\color{Purple}{\displaystyle t}}$ appears (i.e., $\large{\color{Purple}{\displaystyle \mathrm {tf} (t,d)\neq 0} }$ ). If the term is not in the corpus, this will lead to a division-by-zero. It is therefore common to adjust the denominator to $\large{\color{Purple}{\displaystyle 1+|\{d\in D:t\in d\}|}}$.
+
 
 ### Terminologies:
-
 **Term Frequency:** In document $\large{\color{Purple}\textrm{d} }$ , the frequency represents the number of instances of a given word $\large{\color{Purple}\textrm{t} }$. Therefore, we can see that it becomes more relevant when a word appears in the text, which is rational. Since the ordering of terms is not significant, we can use a vector to describe the text in the bag of term models. For each specific term in the paper, there is an entry with the value being the term frequency.
 
 
