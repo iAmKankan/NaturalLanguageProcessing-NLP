@@ -113,8 +113,10 @@ where $\large{\color{Purple}f_{t,d} }$ is the raw count of a term in a document,
 
 **Note** the denominator is simply the total number of terms in document $\large{\color{Purple}\textrm{d} }$ (counting each occurrence of the same term separately). There are various **other ways** to define term frequency.
 
-
-
+* the raw count itself: $\large{\color{Purple}\textrm{tf}(t,d) = f_{t,d}}$
+* Boolean "frequencies": $\large{\color{Purple}\textrm{tf}(t,d) = 1}$ if $\large{\color{Purple}t}$ occurs in $\large{\color{Purple}d}$ and $\large{\color{Purple}0}$ otherwise;
+* logarithmically scaled frequency/log normalization: $\large{\color{Purple}\mathrm{tf}(t,d) = \log (1 + f_{t,d})}$
+* augmented frequency, to prevent a bias towards longer documents, e.g. raw frequency divided by the raw frequency of the most frequently occurring term in the document: $\large{\color{Purple}{\displaystyle \mathrm {tf} (t,d)=0.5+0.5\cdot {\frac {f_{t,d}}{\max\{f_{t',d}:t'\in d\}}}} }$
 
 ### Terminologies:
 
