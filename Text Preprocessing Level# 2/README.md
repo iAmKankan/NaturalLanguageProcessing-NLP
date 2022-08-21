@@ -92,14 +92,34 @@ sorted(vectorizer2.vocabulary_.keys())
 ### Example #2
 [Python code](https://nbviewer.org/github/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/Text%20Preprocessing%20Level%23%202/Bag_of_Words.ipynb)
 
-### 2. TF-IDF
+## 2. TF-IDF (term-frequency inverse document-frequency)
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
-#### Tf–idf term weighting( term-frequency inverse document-frequency)
-Some words in every language, carry very little meaningful information about the actual contents of the document (e.g. “**the**”, “**a**”, “**is**” in English) . If we were to feed the direct count data directly to a classifier _those very frequent terms would shadow the frequencies of rarer yet more interesting terms_.
+While working with frequency of words in a text we always find some words are very frequent but carry little to no significance in text processing. In the other hand words with lesser frequncy might have more meaning to the text. 
 
-In order to _re-weight_ the count features into **floating point values** suitable for usage by a classifier it is very common to use the **tf–idf** transform.
+**TF-IDF** (Term Frequency - Inverse Document Frequency) is a handy algorithm that uses the _frequency of words_ **to determine how relevant those words are to a given document**.
 
 <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{tf-idf=&space;tf(t,d)&space;\times&space;idf(t)}&space;}" title="{\color{Purple}\mathbf{tf-idf= tf(t,d) \times idf(t)} }" />
+
+### Definition
+* The **tf–idf** is the product of two statistics, **term frequency** and **inverse document frequency**. There are various ways for determining the exact values of both statistics.
+* A formula that aims to define the importance of a keyword or phrase within a document or a web page.
+
+### Term frequency
+Term frequency, $\large{\color{Purple}\textrm{tf(t,d)} }$ , is the [relative frequency](https://github.com/iAmKankan/Statistics/tree/main/frequency-distribution#relative-frequency-distribution) of term $\large{\color{Purple}\textrm{t} }$ within document $\large{\color{Purple}\textrm{d} }$,
+
+$$\large{\color{Purple} \textrm{tf}(t,d)= \frac{f_{t,d}}{\sum_{t^{\prime} \in d}  f_{t^\prime,d} }}$$
+
+where $\large{\color{Purple}f_{t,d} }$ is the raw count of a term in a document, **i.e.** the number of times that term $\large{\color{Purple}\textrm{t} }$ occurs in document $\large{\color{Purple}\textrm{d} }$. 
+
+**Note** the denominator is simply the total number of terms in document $\large{\color{Purple}\textrm{d} }$ (counting each occurrence of the same term separately). There are various **other ways** to define term frequency.
+
+
+
+
+### Terminologies:
+
+**Term Frequency:** In document $\large{\color{Purple}\textrm{d} }$ , the frequency represents the number of instances of a given word $\large{\color{Purple}\textrm{t} }$. Therefore, we can see that it becomes more relevant when a word appears in the text, which is rational. Since the ordering of terms is not significant, we can use a vector to describe the text in the bag of term models. For each specific term in the paper, there is an entry with the value being the term frequency.
+
 
 Using the `TfidfTransformer`’s default settings, `TfidfTransformer(norm='l2', use_idf=True, smooth_idf=True, sublinear_tf=False)` the term frequency, the number of times a term occurs in a given document, is multiplied with idf component, which is computed as
 
@@ -110,6 +130,8 @@ where **_n_** is the total number of documents in the document set and **_df(t)_
 <img src="https://latex.codecogs.com/svg.image?{\color{Purple}\mathbf{v_{norm}=\frac{v}{\parallel&space;v\parallel_2}=\frac{v}{\sqrt{v_1^2&plus;v_2^2&plus;...&plus;v_n^2}}}}" title="{\color{Purple}\mathbf{v_{norm}=\frac{v}{\parallel v\parallel_2}=\frac{v}{\sqrt{v_1^2+v_2^2+...+v_n^2}}}}" />
 
 This was originally a term weighting scheme developed for information retrieval (as a ranking function for search engines results) that has also found good use in document classification and clustering.
+
+![light](https://user-images.githubusercontent.com/12748752/134754235-ae8efaf0-a27a-46f0-b439-b114cbb8cf3e.png)
 
 The following sections contain further explanations and examples that illustrate how the tf-idfs are computed exactly and how the tf-idfs computed in scikit-learn’s TfidfTransformer and TfidfVectorizer differ slightly from the standard textbook notation that defines the idf as
 
