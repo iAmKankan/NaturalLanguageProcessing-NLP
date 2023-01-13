@@ -1,13 +1,12 @@
 ## Index
 ![deep](https://user-images.githubusercontent.com/12748752/134754236-8d5549c9-bd05-408d-ba63-0d56ab83c999.png)
-* [What is vectorization](#what-is-vectorization-word-embeddings-or-word-vectorization)
-#### [_Vectorization techniques_](#vectorization-techniques)
+### [What is vectorization](#what-is-vectorization-word-embeddings-or-word-vectorization)
+### [_Vectorization techniques_](#vectorization-techniques)
 1. [Bag of Words](#1-bag-of-words)
     * [Example #1 N-Gram,Unigram, Bigram](#example-1)
     * [Example #2 Python code](https://nbviewer.org/github/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/Text%20Preprocessing%20Level%23%202/Bag_of_Words.ipynb)
     
-2. [TF-IDF](#2-tf-idf)
-
+2. [TF-IDF](#2-tf-idf-term-frequency-inverse-document-frequency)
 ## What is vectorization? (Word Embeddings or Word vectorization)
 In text Analysis the **raw data**, **a sequence of symbols** cannot be fed directly to the ML algorithms themselves _as most of them expect **numerical feature vectors with a fixed size** rather than the raw text documents with variable length_.
 
