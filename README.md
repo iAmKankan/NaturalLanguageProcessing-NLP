@@ -6,8 +6,8 @@
   * [Stemming](https://nbviewer.org/github/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/NLP-Python/02_stemming.ipynb)
   * [Lammetization](https://nbviewer.org/github/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/NLP-Python/03_lemmatization.ipynb)
 * [Text Preprocessing Level 2- Bag Of Words, TFIDF, Unigrams, Bigram](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/tree/master/Text%20Preprocessing%20Level%23%202)
-* [Text Preprocessing- Gensim, Word2vec, AvgWord2vec]()
-* [Text Preprocessing Level 3- Word Embeddings, Word2vec]()
+* [Text Preprocessing Level 3- Word Embeddings, Word2vec](https://github.com/iAmKankan/Natural-Language-Processing-NLP-Tutorial/blob/master/word_embedding.md)
+* Text Preprocessing- Gensim, Word2vec, AvgWord2vec
 * [Transformers]()
 * [BERT]()
 * [Guidance to NLP](https://github.com/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/target.md)
