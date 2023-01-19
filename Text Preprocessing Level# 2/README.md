@@ -7,6 +7,12 @@
     * [Example #2 Python code](https://nbviewer.org/github/iAmKankan/NaturalLanguageProcessing-NLP/blob/master/Text%20Preprocessing%20Level%23%202/Bag_of_Words.ipynb)
     
 2. [TF-IDF](#2-tf-idf-term-frequency-inverse-document-frequency)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/12748752/151629694-24298066-ce77-4eed-a32c-a7e8114aa18e.png" width=70% />
+  <br><ins><i><b>Various Vectorization techniques </i></b></ins>
+</p>
+
 ## What is vectorization? (Word Embeddings or Word vectorization)
 In text Analysis the **raw data**, **a sequence of symbols** cannot be fed directly to the ML algorithms themselves _as most of them expect **numerical feature vectors with a fixed size** rather than the raw text documents with variable length_.
 
